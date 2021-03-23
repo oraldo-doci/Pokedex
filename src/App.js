@@ -44,7 +44,7 @@ const App = () => {
       {pokemonData.map((data) => {
         return (
           <div className="container">
-            <img src={data.sprites["front_default"]} />
+            <img src={data.sprites["front_default"]} alt="pokemon pic" />
             <div className="divTable">
               <div className="divTableBody">
                 <div className="divTableRow">
